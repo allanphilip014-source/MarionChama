@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Store</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Mickey's Store 🛒</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Electronics</a>
+    <a href="#">Kitchen</a>
+    <a href="#">Cart</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- New Arrivals -->
+  <div class="home-section">
+    <div class="section-header">
+      <h2>✨ New Arrivals</h2>
+    </div>
+    <div class="products" id="newProducts"></div>
+  </div>
+
+  <!-- On Sale -->
+  <div class="home-section">
+    <div class="section-header">
+      <h2>🔥 On Sale</h2>
+    </div>
+    <div class="products" id="saleProducts"></div>
+  </div>
+
+  <!-- Popular -->
+  <div class="home-section">
+    <div class="section-header">
+      <h2>⭐ Popular Products</h2>
+    </div>
+    <div class="products" id="popularProducts"></div>
+  </div>
+
+</main>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script>
+  initHome();
+</script>
+</body>
+</html>
