@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electronics | Mickey's Store</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Electronics</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="kitchen.html">Kitchen</a>
+    <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+
+<main>
+  <div class="products" id="electronicsProducts"></div>
+</main>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script>
+  loadCategory("electronics", "electronicsProducts");
+</script>
+</body>
+</html>
